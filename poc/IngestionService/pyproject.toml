@@ -1,0 +1,9 @@
+[project]
+name = "ingestionservice"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "alpaca-py==0.43.4",
+    "kafka-python==2.3.1",
+    "websockets==16.0",
+]
